@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #e2e2e2; */
+  color: rgb(68, 68, 68);
+  display: flex;
+  font-family: "Muli", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+  font-weight: 600;
+  background-image: url("../202451-pastel-blue-plain-background-vector-eps.jpg");
+  background-size: cover;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 0;
+}
+
+.container {
+  background-color: #fcfcfc98;
+  box-shadow: 0px 2px 10px rgba(200, 200, 200, 0.703);
+  padding: 20px;
+  width: 550px;
+  max-width: 100%;
+  padding: 40px;
+  border-radius: 40px 10px;
+}
+
+.result-container {
+  background-color: rgba(132, 132, 132, 0.611);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.btnn {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  background-image: linear-gradient(to right, #43d412, #a7ec06);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px auto 20px;
+  padding: 20px auto;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: #5e5e5e;
+  font-weight: 800;
+}
+.copy {
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.gg-copy {
+  margin-left: 6px !important;
+  opacity: 0.5 !important;
+}
+.data_input {
+  padding: 30px;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+@media screen and (max-width: 400px) {
+  .result-container {
+    font-size: 14px;
+  }
+}
